@@ -232,7 +232,7 @@ blockquote {
   	color: #FFF;
     cursor: pointer;
     background: #357;
-    opacity: 70%;
+    opacity: 0.6;
     padding: 15px 40px;
     transition: all 0.3s ease;
 }
@@ -241,7 +241,7 @@ blockquote {
 .tm-down-arrow:focus {
   color: #FFF;
   background: #37A;
-  opacity: 100%;
+  opacity: 1;
   padding: 20px 50px;
 }
 
