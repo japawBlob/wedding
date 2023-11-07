@@ -148,13 +148,14 @@ blockquote {
 	background-color: #222;
   background-image: url(../img/my.jpg);
   background-repeat: no-repeat;
-  /* background-size: contain; */
+  background-size: cover;
+  background-position: center center;
   height: 100vh;
   min-height: 375px;
   position: relative;
 }
 
-@media (min-height: 600px) and (min-width: 1920px) {
+/* @media (min-height: 600px) and (min-width: 1920px) {
   #infinite {
     background-size: cover;
   }
@@ -162,27 +163,27 @@ blockquote {
 
 @media (min-height: 830px) {
   #infinite {
-    background-position: center -210px;
+    background-size: cover;
   }
 }
 
 @media (min-height: 680px) and (max-height: 829px) {
   #infinite {
-    background-position: center -300px;
+    background-size: cover;
   }
 }
 
 @media (min-height: 500px) and (max-height: 679px) {
   #infinite {
-    background-position: center -400px;
+    background-size: cover;
   }
 }
 
 @media (max-height: 499px) {
   #infinite {
-    background-position: center -450px;
+    background-size: cover;
   }
-}
+} */
 
 .tm-hero-text-container {
   width: 100%;
@@ -231,6 +232,7 @@ blockquote {
   	color: #FFF;
     cursor: pointer;
     background: #357;
+    opacity: 70%;
     padding: 15px 40px;
     transition: all 0.3s ease;
 }
@@ -239,6 +241,7 @@ blockquote {
 .tm-down-arrow:focus {
   color: #FFF;
   background: #37A;
+  opacity: 100%;
   padding: 20px 50px;
 }
 
