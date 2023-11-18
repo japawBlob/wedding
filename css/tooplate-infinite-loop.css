@@ -11,8 +11,10 @@ https://www.tooplate.com/view/2117-infinite-loop
 body {
 	/* font-family: "Raleway", sans-serif; */
 	font-family: monospace;
+  background-color: #ecece8;
 	font-size: 1em;
-  color: #707070;
+  color: #101010;
+  /* color: #002347; */
   margin: 0;
   padding: 0;
   overflow-x: hidden;
@@ -56,7 +58,7 @@ blockquote {
 }
 
 .tm-text-primary {
-  color: #37A;
+  color: #5489CC;
 }
 
 .tm-font-big {
@@ -190,7 +192,7 @@ blockquote {
 }
 
 .tm-intro-text {
-  font-size: 1.2rem;
+  font-size: 1.1rem;
   /* text-align: justify; */
 }
 
@@ -523,7 +525,7 @@ p {
 
 @media (max-width: 991px) {
   .tm-intro-text-container {
-    padding-left: 15px;
+    padding-left: 0px;
     padding-top: 30px;
     max-width: 600px;
     margin-left: auto;
