@@ -38,7 +38,8 @@ a {
 
 .post-image-height {
   width: auto;
-  height: 400px;
+  height: auto;
+  max-height: 400px;
   /* margin: 10px 15px; */
 }
 
