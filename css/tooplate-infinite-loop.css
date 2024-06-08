@@ -36,12 +36,6 @@ a {
   /* margin: 10px 15px; */
 }
 
-.post-image-height {
-  width: auto;
-  height: auto;
-  max-height: 400px;
-  /* margin: 10px 15px; */
-}
 
 a:hover,
 a:focus {
@@ -218,6 +212,16 @@ blockquote {
 .tm-intro-text {
   font-size: 1.1rem;
   /* text-align: justify; */
+}
+
+.tm-bullet-text {
+  font-size: 1.1rem;
+  /* text-align: justify; */
+}
+
+.tm-bullet-point {
+  padding: 5px 0px;
+  max-width: 90%;
 }
 
 .tm-icon {
@@ -532,6 +536,12 @@ p {
     padding-right: 30px;
     padding-left: 30px;
   }
+  .post-image-height {
+    width: auto;
+    height: auto;
+    max-height: 200px;
+    /* margin: 10px 15px; */
+  }
 }
 
 @media (min-width: 1200px) {
@@ -541,6 +551,12 @@ p {
 
   .tm-container-gallery {
     max-width: 1290px;
+  }
+  .post-image-height {
+    width: auto;
+    height: auto;
+    max-height: 400px;
+    /* margin: 10px 15px; */
   }
 
   .tm-container-contact {
@@ -567,6 +583,7 @@ p {
     margin-left: 0;
     margin-top: 20px;
   }
+
 }
 
 @media (max-width: 767px) {
@@ -589,6 +606,12 @@ p {
   .slick-dots {
     bottom: -80px;
   }
+  .post-image-height {
+    width: auto;
+    height: auto;
+    max-height: 200px;
+    /* margin: 10px 15px; */
+  }
 }
 
 @media (max-width: 480px) {
@@ -598,6 +621,12 @@ p {
     margin-right: auto;
   }
 
+  .post-image-height {
+    width: auto;
+    height: auto;
+    max-height: 125px;
+    /* margin: 10px 15px; */
+  }
   .tm-gallery-container-2 {
     max-width: 350px;
   }
