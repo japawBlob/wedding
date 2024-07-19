@@ -1,0 +1,35 @@
+.schedule {
+    background-color: #f5f5f5;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: left;
+    max-width: 500px; 
+    margin-bottom: 16px;
+    width: fit-content;
+}
+
+.schedule h1 {
+    font-size: 2em;
+    font-weight: 500;
+    color: #5489cc;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.schedule p {
+    all:revert;
+    font-size: 1.2rem;
+    margin: 5px 0;
+}
+
+.schedule .subtext {
+    font-size: 0.9rem;
+    margin-left: 20px;
+}
+
+.schedule .highlight {
+    all:revert;
+    color: red;
+    text-decoration: underline;
+}
