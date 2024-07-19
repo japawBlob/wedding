@@ -36,6 +36,12 @@ a {
   /* margin: 10px 15px; */
 }
 
+.post-image-chonk {
+  width: 650px;
+  height: auto;
+  /* margin: 10px 15px; */
+}
+
 
 a:hover,
 a:focus {
